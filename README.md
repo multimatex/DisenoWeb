@@ -1,0 +1,2 @@
+# DisenoWeb
+<h2><strong>Saludos,</strong><br />Porfavor enviame tu solicitud para agregarte al repositorio<br />escribiendome un email a <a href="mailto:alecostafer@gmail.com">alecostafer@gmail.com</a><br />en el que me proporciones tu <span style="color: #ff0000;">nombre de usuario</span> en github<br />o el <span style="color: #ff0000;">correo que usaste para crear tu cuenta en gitHub.</span><br />Muchas gracias.</h2>
