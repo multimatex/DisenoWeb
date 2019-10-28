@@ -568,7 +568,7 @@
   width: 100%;
 }
 
-/*CODIGO AGREGADO*/
+/*CODIGO AGREGADO PARA EL BREADCRUMB*/
 /* Style the list */
 ul.breadcrumb {
   padding: 10px 16px;
@@ -587,7 +587,7 @@ ul.breadcrumb li {
 ul.breadcrumb li + li:before {
   padding: 8px;
   color: black;
-  content: "/\00a0";
+  content: "\2192";
 }
 
 /* Add a color to all links inside the list */
