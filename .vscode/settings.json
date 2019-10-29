@@ -1,5 +1,6 @@
 {
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-    "editor.formatOnSaveTimeout": 2000
+    "editor.formatOnSaveTimeout": 2000,
+    "liveServer.settings.port": 5501
 }

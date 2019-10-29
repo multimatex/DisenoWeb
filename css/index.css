@@ -615,5 +615,9 @@ footer {
 .contenedor {
   margin: 30px 20vw;
 }
+h4,
+h2 {
+  font-weight: bold;
+}
 
 /*CODIGO AGREGADO FIN*/
