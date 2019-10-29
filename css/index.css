@@ -613,11 +613,31 @@ footer {
 }
 
 .contenedor {
-  margin: 30px 20vw;
+  margin: 30px 10vw;
 }
 h4,
-h2 {
+h2,
+h1 {
   font-weight: bold;
+}
+#titulo-inicio {
+  text-align: center;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(40, 138, 218),
+    rgb(21, 95, 138)
+  );
+  font-family: "Staatliches", cursive;
+  font-size: 2em;
+}
+.contenido {
+  background: radial-gradient(
+    ellipse at center,
+    rgba(242, 246, 248, 1) 0%,
+    rgba(216, 225, 231, 1) 37%,
+    rgba(181, 198, 208, 1) 96%,
+    rgba(224, 239, 249, 1) 100%
+  );
 }
 
 /*CODIGO AGREGADO FIN*/
