@@ -613,7 +613,7 @@ footer {
 }
 
 .contenedor {
-  margin: 30px 10vw;
+  margin: 30px 1vw;
 }
 h4,
 h2,
@@ -638,6 +638,20 @@ h1 {
     rgba(181, 198, 208, 1) 96%,
     rgba(224, 239, 249, 1) 100%
   );
+}
+
+.contenido h4,
+.contenido p,
+.contenido h2 {
+  margin-inline-start: 30px;
+}
+
+.anchocompleto {
+  width: 100%;
+}
+
+.centrado {
+  text-align: center;
 }
 
 /*CODIGO AGREGADO FIN*/
