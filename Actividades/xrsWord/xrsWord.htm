@@ -16,7 +16,10 @@ para otros usos contacte con el autor-->
 </head>
 <body onLoad="loadPage()" onbeforeunload="unloadPage()" onUnload="unloadPage()">
 <div id="ardoraMain">
-<div id="ardoraEnu"></div>
+<audio id="audioFelicitacion">
+<source src="xrsWord_resources/media/Win.mp3" type="audio/mp3">
+</audio>
+<div id="ardoraEnu"><SPAN style="font-size:12px;color:#000000">Hola bienvenido al crucigrama de Diseño Web en el que tendras que adivinar las palabras que estan relacionadas con el curso de Diseño Web.</SPAN><br><SPAN style="font-size:12px;color:#000000">para jugar pasa el cursor sobre una casilla y haz click en ella para que se te indique la pista de la palabra</SPAN></div>
   <div id="ardoraAct">
   <table id="tableGame">
 <tr>
@@ -145,6 +148,7 @@ para otros usos contacte con el autor-->
 <div id="defIma"></div>
   </div>
 <div id="ardoraTab">
+  <canvas id="ardoraTabCanvas" width="70" height="98"></canvas>
   <div id="buttonOk"><canvas id="buttonOkCanvas" width="70" height="70"></canvas></div>
 </div></div>
 <div id="ardoraAlumSCORM"><p></p></div>
