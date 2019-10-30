@@ -606,4 +606,10 @@ h1 {
   margin: 0px;
 }
 
+.lectura {
+  min-width: 80%;
+  min-height: 500px;
+  margin: auto;
+}
+
 /*CODIGO AGREGADO FIN*/
