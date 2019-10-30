@@ -611,5 +611,14 @@ h1 {
   min-height: 500px;
   margin: auto;
 }
+/* Codigo para evitar que desaparezca el nav*/
+@media screen and (max-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+  }
+}
 
 /*CODIGO AGREGADO FIN*/
