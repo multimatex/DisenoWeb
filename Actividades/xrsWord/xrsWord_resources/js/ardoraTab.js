@@ -106,7 +106,7 @@ if (tM == "Attempts" && goURLRepeat){parent.recarga()}
 if (tM == "Time" && tT==0 && goURLRepeat){parent.recarga()}
 if (tM == "Time" && tT==2 && goURLRepeat){parent.recarga()}
 }
-function messagePlayAudio(typeMessage){}
+function messagePlayAudio(typeMessage){ if (typeMessage=="Ok"){document.getElementById("audioFelicitacion").play()}}
 function backAct(seg,oldTypeGame){setTimeout(function(){paintBack();isShowMessage=false;
 document.getElementById("ardoraActCanvas").style.zIndex=0; document.getElementById("ardoraActCanvas").style["visibility"]="hidden";typeGame=oldTypeGame;
 },seg*1000);}

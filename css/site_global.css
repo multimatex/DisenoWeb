@@ -370,7 +370,7 @@ img.block {
   z-index: 0;
 }
 .no_vert_scroll {
-  overflow-y: hidden;
+  /*overflow-y: hidden;*/
 }
 .always_vert_scroll {
   overflow-y: scroll;
@@ -514,3 +514,96 @@ span.actAsPara {
     text-rendering: auto;
   }
 }
+
+/*CODIGO AGREGADO PARA EL BREADCRUMB*/
+/* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  margin-bottom: 0px;
+  list-style: none;
+  background-color: #eee;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "\2192";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+footer {
+  background: grey;
+}
+.footer {
+  margin: auto;
+  text-align: center;
+}
+.footer-fila {
+  margin: 0%;
+}
+
+.contenedor {
+  margin: 30px 1vw;
+}
+h4,
+h2,
+h1 {
+  font-weight: bold;
+}
+#titulo-inicio {
+  text-align: center;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(40, 138, 218),
+    rgb(21, 95, 138)
+  );
+  font-family: "Staatliches", cursive;
+  font-size: 2em;
+}
+.contenido {
+  background: radial-gradient(
+    ellipse at center,
+    rgba(242, 246, 248, 1) 0%,
+    rgba(216, 225, 231, 1) 37%,
+    rgba(181, 198, 208, 1) 96%,
+    rgba(224, 239, 249, 1) 100%
+  );
+}
+
+.contenido h4,
+.contenido p,
+.contenido h2 {
+  margin-inline-start: 30px;
+}
+
+.anchocompleto {
+  width: 100%;
+}
+
+.centrado {
+  text-align: center;
+}
+
+.margen0yCentrado {
+  text-align: center;
+  margin: 0px;
+}
+
+/*CODIGO AGREGADO FIN*/

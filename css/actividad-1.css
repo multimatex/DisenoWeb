@@ -569,6 +569,7 @@ body {
 }
 .verticalspacer {
   min-height: 60px;
+  max-height: 30px;
 }
 #u1633_img {
   width: 100%;
