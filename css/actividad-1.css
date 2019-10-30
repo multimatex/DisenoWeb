@@ -4,7 +4,7 @@
 }
 #page {
   z-index: 1;
-  min-height: 500px;
+  min-height: 200px;
   background-image: none;
   border-width: 0px;
   border-color: #000000;
