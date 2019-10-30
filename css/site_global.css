@@ -621,4 +621,12 @@ h1 {
   }
 }
 
+.listado > li {
+  list-style-type: disc !important;
+}
+
+.sublistado > li {
+  list-style-type: circle !important;
+}
+
 /*CODIGO AGREGADO FIN*/
