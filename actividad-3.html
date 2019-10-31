@@ -29,6 +29,7 @@
 
     <title>Actividad 3</title>
     <!-- CSS -->
+    <link rel="stylesheet" href="./css/compiled-4.8.11.min.css">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -188,6 +189,41 @@
       </div>
     </div>
 
+    <!-- INICIO MODAL TWITTER -->
+      <button style="position: fixed;bottom: 30px; right: 30px;z-index: 1;" type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#ModalTwitter">
+        <i class="fab fa-twitter fa-lg"></i>
+      </button>
+<div class="modal fade" id="ModalTwitter" tabindex="-1" role="dialog" aria-labelledby="TituloModalTwitter"
+  aria-hidden="true">
+  <div class="modal-dialog modal-sm modal-side modal-bottom-right" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title w-100" id="TituloModalTwitter">Twitter Unad</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="max-height: 70vh;overflow-y: scroll;">        
+        <div>
+          <a
+          class="twitter-timeline"
+          href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw"
+          >Tweets by UniversidadUNAD</a
+        >
+        <script
+          async
+          src="https://platform.twitter.com/widgets.js"
+          charset="utf-8"
+        ></script>
+        </div>      
+      </div>
+      <div class="modal-footer">        
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- FIN MODAL TWITTER -->
+
     <section class="contenedor">
       <div class="row contenido"></div>
     </section>
@@ -330,7 +366,6 @@
         require([
           "jquery",
           "museutils",
-          "whatinput",
           "jquery.watch",
           "jquery.musemenu"
         ], function(d) {
@@ -405,5 +440,7 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://kit.fontawesome.com/497608f2ed.js" crossorigin="anonymous"></script>
+    <script src="./scripts/compiled.0.min.js"></script>
   </body>
 </html>
