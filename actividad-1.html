@@ -313,25 +313,6 @@
                   throw Error("Unsupported file type: " + l);
               }
             }
-            d
-              ? d().jquery != "1.8.3" &&
-              Muse.assets.outOfDate.push("jquery-1.8.3.min.js")
-              : Muse.assets.required.push("jquery-1.8.3.min.js");
-            f.parentNode.removeChild(f);
-            if (Muse.assets.outOfDate.length || Muse.assets.required.length)
-              (f =
-                "Puede que determinados archivos falten en el servidor o sean incorrectos. Limpie la cache del navegador e inténtelo de nuevo. Si el problema persiste, póngase en contacto con el administrador del sitio web."),
-                g &&
-                Muse.assets.outOfDate.length &&
-                (f += "\nOut of date: " + Muse.assets.outOfDate.join(",")),
-                g &&
-                Muse.assets.required.length &&
-                (f += "\nMissing: " + Muse.assets.required.join(",")),
-                suppressMissingFileError
-                  ? ((f +=
-                    "\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up."),
-                    console.log(f))
-                  : alert(f);
           };
         location &&
           location.search &&
